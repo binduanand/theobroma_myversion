@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TheooBroma </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=REM:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="container">
+        <header class="main-header">
+            <div class="logo-holder">
+                <a href="index.html">
+                    <img src="data:image/png;base64,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" alt="logo" height="50px" width="170px">
+                </a>
+            </div>
+            
+            <div class="search-holder">
+                <form action="" method="get">
+                    <input type="search" name="s" placeholder="Search Site">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </header>
+        <nav class="main-menu">
+            <ul class="mobile-menu">
+                <li><a href="#">MENU</a></li>
+                <li><a href="#" class="toggler">+</a></li>
+            </ul>
+            <ul>
+                <li><a href="our goods.html">OUR GOODS</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+      
+
+        <section class="banner-slider">
+            <ul id="adaptive">
+                <li><img src="https://media.istockphoto.com/id/1277966654/photo/close-up-image-of-homemade-chocolate-salted-caramel-brownie-squares-piled-on-green-plate-and.jpg?s=612x612&w=0&k=20&c=EE1HZdfNMKf7aYS0DwixJxZXkzkM2ciQxza8HsGKhRM=" alt="#" width="1000px" height="450px"></li>
+                <li><img src="https://media.istockphoto.com/id/1317789159/photo/interior-of-a-local-coffee-shop.jpg?s=612x612&w=0&k=20&c=IR7_AIfE9cbuGyYpsz9sX-2dB4WY6h4KIfg9-G1gU84=" alt="#" width="1000px" height="450px"></li>
+                <li><img src="https://media.istockphoto.com/id/1434024382/photo/green-plate-and-caesar-salad-with-caesar-salad-on-a-dark-backgro-fresh-chicken-salad.jpg?s=612x612&w=0&k=20&c=d-E5CPI2lxNu-b94qLX4GViz7X_5oyv4eaFXwkbk4oI=" width="1000px" alt="#" height="450px"></li>
+            </ul>
+        </section>
+        <section class="content-holder">
+            <main>
+                <h1>OUR BESTSELLERS</h1>
+                <div class="best">
+                    <figure>
+                        <img src="https://theobroma.in/cdn/shop/products/ChocoChipBrownie2_400x400.jpg?v=1631970995" alt="#" >
+                        <figcaption>CHOCOCHIP BROWNIE</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="https://static.uengage.in/uploads/7175/image-VVI2ND-1681839316.jpg" alt="#" >
+                        <figcaption>QUICHE VEG</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="https://media.istockphoto.com/id/1438535080/photo/pumpkin-cinnamon-spice-latte-on-green-background.jpg?s=612x612&w=0&k=20&c=u2wk7bLexUGEwufmIBurl-lPR6yHBUTQqi5CHaiXO-U=" alt="#">
+                        <figcaption>LATTE</figcaption>
+                    </figure>
+                </div>
+                <h1>OUR GOODS</h1>
+                <div class="goods">
+                    <figure><a href="browni.html">
+                        <img src="https://static.uengage.in/uploads/7175/image-VAL98D-1681839341.jpg" alt="B">
+                        <figcaption>BROWNIES</figcaption>
+                        </a>
+                    </figure>
+                    <figure><a href="breads.html">
+                        <img src="https://media.istockphoto.com/id/474679296/photo/organic-homemade-whole-wheat-bread.jpg?s=612x612&w=0&k=20&c=b3TU_bz4r6gxeo2COsY2N4t9PxMoVmWdFO0kfnOJg4I=" alt="BR" >
+                        <figcaption>BREADS</figcaption></a>
+                    </figure>
+                    <figure><a href="SANWICH.HTML">
+                        <img src="https://media.istockphoto.com/id/1054397856/photo/chicken-club-sandwich-with-french-fries.jpg?s=612x612&w=0&k=20&c=Rb0VOIAIqIlBasIgrGUrIksjXPuMZ6pul4DVCci43cQ=" alt="SS" >
+                        <figcaption>SANDWICHES AND SAVORIES</figcaption></a>
+                    </figure>
+                    <figure><a href="deserts.html">
+                        <img src="https://static.uengage.in/uploads/7175/image-KYTCID-1687877415.jpg" alt="DC">
+                        <figcaption>DESERTS AND CUPCAKES</figcaption></a>
+                    </figure>
+                    <figure><a href="SALAD.HTML">
+                        <img src="https://static.uengage.in/uploads/7175/image-TGQCJD-1693502303.jpg" alt="S" >
+                        <figcaption>SALADS</figcaption></a>
+                    </figure>
+                    <figure><a href="BEVERAGES.HTML">
+                        <img src="https://static.uengage.in/uploads/7175/image-KMS0KL-1681839309.jpg" alt="BE" >
+                        <figcaption>BEVERAGES</figcaption></a>
+                    </figure>
+                    <figure><a href="PASTERY.HTML">
+                        <img src="https://media.istockphoto.com/id/1263842540/photo/belgian-pastry.jpg?s=612x612&w=0&k=20&c=BdMcvYFbvfHkmTHazzBdQya1tKysD344qqGJwLRsZ1M=" alt="BE" >
+                        <figcaption>PASTERIES</figcaption></a>
+                    </figure>
+                </div>
+            </main>
+        </section>
+
+        <section class="footer-widget-holder">
+            <div class="widget-holder">
+                    <h3>Address</h3>
+                    <address>Ground Floor, Unit 1, 2981, 12th Main Rd, HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560008</address>
+                
+            </div>
+            <div class="widget-holder">
+                <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="our goods.html">OUR GOODS</a></li>
+                <li><a href="about.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+            </div>
+            <div class="widget-holder">
+                <ul>
+                <li><a href="browni.html">BROWNIES</a></li>
+                <li><a href="breads.html">BREADS</a></li>
+                <li><a href="SANWICH.HTML">SANDWICHES AND SAVORIES</a></li>
+                <li><a href="deserts.html">DESSERTS AND CUPCAKES</a></li>
+                <li><a href="PASTERY.HTML">PASTERIES</a></li>
+                <li><a href="SALAD.HTML">SALADS</a></li>
+                <li><a href="BEVERAGES.HTML">BEVERAGES</a></li>
+            </ul>
+            </div>   
+        </section>
+        <footer class="site-footer">
+            <p><small>Copyright &copy; 2025</small></p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+    <script>
+        $(document).ready(function() {
+        $('#adaptive').lightSlider({
+        adaptiveHeight:true,
+        item:1,
+        slideMargin:0,
+        loop:true
+        });  
+        $('.toggler').click(function(){ 
+            $('.main-menu>ul:nth-of-type(2)').toggle();
+        });
+        });
+    </script>
+</body>
+</html>

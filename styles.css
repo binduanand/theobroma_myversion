@@ -1,0 +1,336 @@
+body{
+    margin: 0px;
+    background-color: beige
+}
+.container{
+    max-width: 1000px;
+    width: 90%;
+    height: auto;
+    margin:auto;
+    background-color: white;
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    background-color: rgb(179, 236, 179);
+    margin-bottom: 0px;
+  
+}
+.search-holder form>input[type="search"]{
+    border: 1px solid gainsboro;
+    padding: 10px;
+}
+.search-holder form>button[type="submit"]{
+    background-color: black;
+    color: white;
+    padding: 11px;
+    border: 0px;
+    margin-left: -5px;
+}
+.main-menu{
+    padding: 10px 0px;
+    background-color: rgb(179, 236, 179);
+    z-index: 1000;
+}
+.main-menu >ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex; 
+    justify-content: flex-start;
+}
+.main-menu>ul>li{
+    padding: 5px;
+}
+
+.main-menu a {
+    text-decoration: none;
+    font-weight: 900;
+    color:  rgb(129, 83, 23);
+    text-shadow: 1px 1px white;
+    margin: 20px;
+
+}
+.main-menu a:hover{
+    text-decoration: underline;
+    text-shadow: 0px 0px;
+}
+.content-holder{
+    max-width: 1000px;
+    height: auto;
+}
+.content-holder>main>h1{
+    text-align: center;
+    color: rgb(129, 83, 23);
+    font-family: 'REM', sans-serif;
+    text-decoration: underline;
+}
+.best{
+    display: flex;
+    justify-content: space-evenly;
+}
+.best>figure>img {
+    border-radius: 25px;
+    box-shadow: 5px 5px  rgb(129, 83, 23);
+    width: 250px;
+    height: 250px;
+}
+.best>figure>figcaption{
+    padding: 5px;
+    text-align: center;
+    font-weight: 400;
+    margin: 5px;
+} 
+.goods{
+    display: flex;
+    flex-flow: row wrap;
+}
+.goods>figure>a>img {
+    border-radius: 50px;
+    box-shadow: 5px 5px  rgb(129, 83, 23);
+    width: 250px;
+    height: 250px;
+}
+.goods>figure>a>figcaption{
+    padding: 5px;
+    text-align: center;
+    font-weight: 400;
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+}
+.goods>figure>a{
+    text-decoration: none;
+}
+.goods>figure>a>img:hover{
+    border-radius: 0px;
+}
+.footer-widget-holder{
+    display: flex;
+    background-color:  rgb(179, 236, 179);
+    color: black;
+    padding-bottom: 10px;
+}
+.widget-holder{
+    padding: 25px;
+    font-size: small;
+}
+.widget-holder ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+.widget-holder ul>li>a{
+    color: black;
+    text-decoration: none;
+}
+.widget-holder ul>li>a:hover{
+    text-decoration: underline;
+}
+.site-footer{
+    background-color: pink;
+    margin: -25px 0px;
+    padding: 10px;
+    text-align: center;
+}
+.site-footer>p{
+    margin: 0px;
+    max-width: 1000px;
+}
+.content-holder1{
+    max-width: 1000px;
+}
+.goodss{
+    float: right;
+    width: 75%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 20px;
+}
+.goodss>figure>img{
+    width:150px;
+    height:150px;
+    border-radius: 50px;
+    box-shadow: 5px 5px  rgb(129, 83, 23);
+}
+.goodss>figure>figcaption{
+    padding: 5px;
+    text-align: center;
+    font-size: small;
+    margin: 5px;
+}
+.clearfix{
+    clear: both;
+}
+.sidebar{
+background-color: rgb(179, 236, 179);
+width: 25%;
+height: auto;
+margin-left: 0px ;
+overflow: hidden;
+}
+.sidebar>ul>li{
+    list-style-type: none;
+    background-color: pink;
+    padding: 15px 0px 15px 10px;
+    margin: 20px 0px;
+    width: 100%;
+    text-align: center;
+}
+.sidebar ul{
+    margin-left: 0px;
+}
+.sidebar a{
+    color:  rgb(129, 83, 23);
+    text-decoration: none;
+    font-weight: 500;
+    text-shadow: 1px 1px white;
+    letter-spacing: 2px;
+    font-size: large;
+    text-align: center;
+}
+.sidebar a:hover{
+    text-decoration: underline;
+}
+.aboutus{
+    max-width: 1000px;
+    height: auto;
+}
+.cus>h3{
+    color: rgb(129, 83, 23);
+    font-family: 'REM', sans-serif;
+    text-decoration: underline;
+}
+.aboutus>h1{
+    text-align: center;
+    color: rgb(129, 83, 23);
+    font-family: 'REM', sans-serif;
+    text-decoration: underline;
+}
+.aboutus>p{
+    font-family: 'Lobster', cursive;
+    margin: 5px 80px;
+}
+.cus>p{font-family: 'Lobster', cursive;}
+.aboutus>img{
+    display: block;
+    margin: 20px auto ;
+}
+.cus{
+    max-width: 1000px;
+    height: auto;
+    margin-left: 20px;
+}
+.cus>iframe{
+    max-width: 400px;
+    margin: auto;
+    height: 200px;
+    
+}
+
+/*mmenu*/
+.mobile-menu{
+    display: none !important;
+}
+
+/*mmenu*/
+
+/*rwd*/
+@media screen and (max-width:1040px){
+    .best>figure>img{
+        width: 170px;
+        height: 170px;
+        justify-content: flex-start;
+        overflow-y: scroll;
+    }
+    .goods>figure>img{
+        width: 170px;
+        height: 170px;
+        overflow-y: scroll;
+       }
+    .goodss{
+        display: flex;
+        flex-flow: row wrap;
+    }
+    .goodss>figure{
+        width: 120px;
+    }
+}
+@media screen and (max-width: 750px) {
+    .main-header{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .mobile-menu{
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+    .main-menu>ul:nth-of-type(2){
+        flex-direction: column;
+        padding: 10px 0px;
+   }
+   #adaptive img{
+    width: 100%;
+   }
+   .best{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+   }
+   .best>figure>img{
+    width: 200px;
+    height: 200px;
+   }
+   .goods{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+   }
+   .goods>figure>img{
+    width: 200px;
+    height: 200px;
+    overflow-y: scroll;
+   }
+   .footer-widget-holder{
+    flex-direction: column;
+    overflow-y: scroll;
+   }
+   .footer-widget-holder .widget-holder{
+    padding: 10px 25px;
+    overflow-y: scroll;
+   }
+   .goodss{
+    width: 100%;
+   }
+   .sidebar{display: none;
+   }
+   .goodss{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+   }
+
+   .cus>iframe{
+    width: 200px;
+   }
+}
+@media screen and (max-width: 350px){
+    .goodss>figure>img{
+        height: 120px !important;
+        width: 120px !important;
+    }
+    .best>figure>img{
+        height: 120px !important;
+        width: 120px !important;
+    }
+    .goods>figure>img{
+        height: 120px !important;
+        width: 120px !important;
+        display: flex;
+        flex-flow: column wrap;
+    }
+    
+}
+/*rwd*/
